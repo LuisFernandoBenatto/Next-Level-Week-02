@@ -12,18 +12,18 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-⚫ [VsCode][vscode]
-🟠 [Yarn][yarn]
+⚫ [VsCode][vscode]<br/>
+🟠 [Yarn][yarn]<br/>
 
 ## Frontend
-🔵 [TypeScript][typescript]
-🟣 [React][reactjs]
-🟢 [Node.js][nodejs]
+🔵 [TypeScript][typescript]<br/>
+🟣 [React][reactjs]<br/>
+🟢 [Node.js][nodejs]<br/>
 
 ## Backend
-🔵 [TypeScript][typescript]
-🟢 [Node.js][nodejs]
-🟡 [SqLite][sqlite]
+🔵 [TypeScript][typescript]<br/>
+🟢 [Node.js][nodejs]<br/>
+🟡 [SqLite][sqlite]<br/>
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
