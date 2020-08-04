@@ -2,7 +2,7 @@
 	  🚀 NextLevelWeek #02 
 </strong></h1>
 
-<img src="./NLW_omnistack/dowloads/Proffy.jpeg">
+<img src="/NLW_omnistack/dowloads/Proffy.jpeg">
 
 ## 💻 Sobre o projeto
 
