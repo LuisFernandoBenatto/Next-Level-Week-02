@@ -26,7 +26,7 @@
     box-sizing: border-box;
 }
 html, body, #root {
-    height: 100vh;
+    height: 140vh;
 }
 body {
     background-color: var(--color-background);
