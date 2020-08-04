@@ -6,16 +6,28 @@
 
 ## 💻 Sobre o projeto
 
-💜 Proffy - ...
+💜 Proffy - Uma plataforma de estudos que te da oportunidade de realizar cursos ou até mesmo lecionar os seus próprios cursos
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [TypeScript][typescript]
-- [React][reactjs]
-- [Node.js][nodejs]
+⚫ [VsCode][vscode]
+🟠 [Yarn][yarn]
+
+## Frontend
+🔵 [TypeScript][typescript]
+🟣 [React][reactjs]
+🟢 [Node.js][nodejs]
+
+## Backend
+🔵 [TypeScript][typescript]
+🟢 [Node.js][nodejs]
+🟡 [SqLite][sqlite]
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
-[reactjs]: https://reactjs/
+[reactjs]: https://pt-br.reactjs.org
+[sqlite]: https://www.sqlite.org/index.html
+[vscode]: https://code.visualstudio.com
+[yarn]: https://yarnpkg.com
