@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './styles.css'
 
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
