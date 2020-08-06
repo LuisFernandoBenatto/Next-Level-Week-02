@@ -14,6 +14,9 @@ about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.
 - Quando executamos um script "não assinado", com a restrição de Política de Execução padrão - Restricted, mesmo que criado em seu computador, o PowerShell bloquei a execução disparando uma excepção.
 - Para atribuir uma determinada Política de Execução, basta executar o cmdlet Set-ExecutionPolicy seguido pelo nome da política adequada à sua necessidade.
 
+<p align="center">
+![WindowsPowerShellAdm](https://user-images.githubusercontent.com/49990149/89593101-b082b600-d824-11ea-8463-377dfec9bcf9.png)
+</p>
     - <strong>🙂 Set-ExecutionPolicy RemoteSigned</strong>
 
 - O comando define a Política de execução para RemoteSigned.
