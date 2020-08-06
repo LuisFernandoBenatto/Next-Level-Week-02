@@ -8,6 +8,18 @@ import warningIcon from '../../assets/images/icons/warning.svg';
 import './styles.css';
 
 function TeacherForm() {
+    const [ name, setName ] = useState('');
+    const [ avatar, setAvatar ] = useState('');
+    const [ whatsapp, setWhatsapp ] = useState('');
+    const [ bio, setBio ] = useState('');
+
+    const [ subject, setSubject ] = useState('');
+    const [ cost, setCost ] = useState('');
+
+    function handleCreateClass() {
+        
+    }
+
     const [scheduleItems, setScheduleItems] = useState([
         { week_day: 0,  from: '', to: '' }
     ]);
@@ -27,17 +39,39 @@ function TeacherForm() {
             <main>
                 <fieldset>
                     <legend>Seus Dados</legend>
-                    <Input name="name" label="Nome completo" />
-                    <Input name="avatar" label="Avatar" />
-                    <Input name="whatsapp" label="WhatsApp" />
-                    <Textarea name="bio" label="Biografia"/>
-
+                    <Input 
+                        name="name" 
+                        label="Nome completo" 
+                        value={name} 
+                        onChange={(e) => {setName(e.target.value)}}
+                    />
+                    <Input 
+                        name="avatar" 
+                        label="Avatar"
+                        value={avatar} 
+                        onChange={(e) => {setAvatar(e.target.value)}}
+                    />
+                    <Input 
+                        name="whatsapp" 
+                        label="WhatsApp" 
+                        value={whatsapp} 
+                        onChange={(e) => {setWhatsapp(e.target.value)}}
+                    />
+                    <Textarea 
+                        name="bio" 
+                        label="Biografia" 
+                        value={bio} 
+                        onChange={(e) => {setBio(e.target.value)}}
+                    />
                 </fieldset>
+
                 <fieldset>
                     <legend>Sobre a Aula</legend>
                     <Select 
                         name="subject"
                         label="Matéria" 
+                        value={subject}
+                        onChange={(e) => {setSubject(e.target.value)}}
                         options ={[
                             { value: 'Artes', label: 'Artes' },
                             { value: 'Filosofia', label: 'Filosofia' },
@@ -55,8 +89,14 @@ function TeacherForm() {
                             { value: 'Literatura', label: 'Literatura' },
                         ]}
                     />
-                    <Input name="cost" label="Custo da sua hora por aula" />
+                    <Input 
+                        name="cost" 
+                        label="Custo da sua hora por aula"
+                        value={cost}
+                        onChange={(e) => {setCost(e.target.value)}} 
+                    />
                 </fieldset>
+
                 <fieldset>
                     <legend>
                         Horários disponíveis
@@ -87,6 +127,7 @@ function TeacherForm() {
                     })}
                      
                 </fieldset>
+
                 <footer>
                     <p>
                         <img src={ warningIcon } alt="Aviso inportante"/>
